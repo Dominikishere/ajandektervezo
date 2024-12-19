@@ -119,7 +119,7 @@ namespace ajandektervezo
         }
         static void setBudget()
         {
-            Console.Write("Adja meg az ajándékozási költségvetésed: ");
+            Console.Write("Adja meg az ajándékozási költségvetésed (Ft): ");
             try
             {
                 int budget = int.Parse(Console.ReadLine());
