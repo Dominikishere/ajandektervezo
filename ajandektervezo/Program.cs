@@ -103,6 +103,7 @@ namespace ajandektervezo
                             Console.Clear();
                             Console.WriteLine("Kellemes karácsonyt!");
                             Thread.Sleep(3000);
+                            run = false;
                             break;
                         default:
                             Console.Clear();
